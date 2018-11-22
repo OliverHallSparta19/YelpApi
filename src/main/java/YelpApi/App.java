@@ -6,8 +6,10 @@ package YelpApi;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+        YelpHttpManager manager = new YelpHttpManager();
+        manager.getSearch();
+
     }
+
 }
